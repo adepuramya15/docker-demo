@@ -13,7 +13,7 @@ jobs:
       - name: Set up Java
         uses: actions/setup-java@v3
         with:
-          java-version: '23'  # Use JDK 23 (or whichever version you need)
+          java-version: '17'  # Use JDK 23 (or whichever version you need)
           distribution: 'temurin'
           java-package: 'jdk'
       # Build the application using Maven
